@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  text-decoration: none !important;
+}
+
+.logo-codoacodo {
+  width: 110px;
+}
+
+.nav-container {
+  background-color: #353a40;
+}
+
+.secondary-links {
+  color: grey !important;
+}
+
+.compra-tickets-link {
+  color: #27a442 !important;
+}
+
+.conf-Bs-As {
+  font-size: 1.4rem !important;
+}
+
+a {
+  font-size: 1.05rem !important;
+}
+
+.carousel-size {
+  height: calc(100vh - 79px) !important;
+}
+
+.carousel-size img {
+  filter: brightness(58%);
+  position: absolute;
+  overflow: hidden;
+  top: -130px;
+  width: 100vw;
+}
+
+.carousel-caption {
+  margin-bottom: 50px;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center;
+  height: 50vh;
+  text-align: end;
+}
+
+.Hero-info-col {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.Hero-info-col button {
+  margin: 10px 5px;
+}
+
+.hero-paragraph {
+  justify-content: end;
+  text-align: end;
+  width: 50%;
+}
+
+.btn-success {
+  background-color: #29a744 !important;
+}
+
+.btn-success:hover {
+  background-color: rgb(14, 138, 14) !important;
+}
+
+.oradores {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 200px !important;
+}
+
+.yellow-button {
+  padding: 0px 4px !important;
+  font-weight: 600 !important;
+}
+
+.blue-button {
+  padding: 0px 4px !important;
+  font-weight: 600 !important;
+}
+
+.btn-info {
+  background-color: #15a1ba !important;
+  color: white !important;
+}
+
+.landscape-info {
+  height: 400px;
+}
+
+.landscape {
+  width: 100%;
+  padding: 0 !important;
+  background-color: #353a40;
+}
+
+.landscape-title-info {
+  margin: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.landscape-paragraph-info {
+  margin: 15px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.register-container {
+  width: 700px !important;
+}
+
+.charla-ignite {
+  color: black;
+}
+
+.send-button {
+  background-color: #96c93e !important;
+  border: 1px solid #96c93e !important;
+}
+
+footer {
+  height: 80px;
+  background-image: linear-gradient(to right, #1c3643, #1d5271);
+}
+
+.footer-links {
+  font-size: 0.9rem !important;
+  text-decoration: none;
+}
