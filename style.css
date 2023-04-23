@@ -85,6 +85,12 @@ a {
 
 .card {
   width: 200px !important;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.265);
+  border-radius: 15px;
+}
+
+.navlinks:hover {
+  color: white !important;
 }
 
 .yellow-button {
@@ -146,4 +152,10 @@ footer {
 .footer-links {
   font-size: 0.9rem !important;
   text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.footer-links:hover {
+  font-size: 1rem !important;
+  color: rgb(175, 175, 175) !important;
 }
