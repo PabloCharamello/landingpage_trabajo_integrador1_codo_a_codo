@@ -135,8 +135,9 @@ a {
   width: 700px !important;
 }
 
-.charla-ignite {
+u {
   color: black;
+  text-decoration: underline dotted black;
 }
 
 .send-button {
