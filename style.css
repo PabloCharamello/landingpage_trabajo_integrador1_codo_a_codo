@@ -137,7 +137,7 @@ a {
 
 u {
   color: black;
-  text-decoration: underline dotted black;
+  text-decoration: underline dotted black !important;
 }
 
 .send-button {
