@@ -211,6 +211,34 @@ a {
 
 .landscape-info {
   height: 400px;
+}
+
+/* FLIP INPUTS */
+
+.flip-inputs {
+  position: relative;
+  transition: all 1s ease !important;
+  transform: perspective(600px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+}
+.flip-inputs:hover {
+  transform: perspective(2600px) rotateY(-15deg) rotateX(3deg) translateX(3%);
+  scale: 115%;
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.33);
+}
+
+.flip-inputs .flip-1,
+.flip-inputs .flip-2 {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-inputs .flip-2 {
+  transform: rotateY(-180deg);
+}
+
+.landscape-info {
+  height: 400px;
 } /* FLIP END */
 
 .landscape {
