@@ -103,6 +103,10 @@ a {
   font-weight: 600 !important;
 }
 
+.badge-padding {
+  padding-top: 2px !important;
+}
+
 .btn-info {
   background-color: #15a1ba !important;
   color: white !important;
