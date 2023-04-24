@@ -185,9 +185,33 @@ a {
   transform: rotateY(-180deg);
 }
 
+/* Flip landscape */
+
+.flip {
+  position: relative;
+  transition: all 0.7s ease;
+  transform: perspective(600px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+}
+.flip:hover {
+  transform: perspective(2600px) rotateY(-20deg) rotateX(3deg) translateX(3%);
+  scale: 115%;
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.33);
+}
+
+.flip .flip-1,
+.flip .flip-2 {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip .flip-2 {
+  transform: rotateY(-180deg);
+}
+
 .landscape-info {
   height: 400px;
-}
+} /* FLIP END */
 
 .landscape {
   width: 100%;
