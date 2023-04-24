@@ -36,13 +36,13 @@
                 class="nav-item d-flex text-white justify-content-around mt-4"
               >
                 <a class="nav-link navlinks" href="#">La conferencia</a>
-                <a class="nav-link secondary-links navlinks" href="#"
+                <a class="nav-link secondary-links navlinks" href="#Oradores"
                   >Los oradores</a
                 >
-                <a class="nav-link secondary-links navlinks" href="#"
+                <a class="nav-link secondary-links navlinks" href="#lugarFecha"
                   >El lugar y la fecha</a
                 >
-                <a class="nav-link secondary-links navlinks" href="#"
+                <a class="nav-link secondary-links navlinks" href="#Nombre"
                   >Conviértete en orador</a
                 >
                 <a class="nav-link compra-tickets-link navlinks" href="#"
@@ -152,7 +152,7 @@
 
     <div class="d-flex flex-column align-items-center">
       <p style="margin-top: 10px">Conoce a los</p>
-      <p class="oradores">ORADORES</p>
+      <p class="oradores" id="Oradores">ORADORES</p>
     </div>
 
     <section class="container px-5">
@@ -208,7 +208,12 @@
     <section class="container-fluid">
       <div class="row mt-5">
         <div class="col-6 p-0 overflow-hidden landscape-info flip">
-          <img class="landscape" src="img/honolulu.jpg" alt="" />
+          <img
+            class="landscape"
+            src="img/honolulu.jpg"
+            alt="honolulu"
+            id="lugarFecha"
+          />
         </div>
         <div class="col-6 landscape">
           <h3 class="landscape-title-info">Bs As - Octubre</h3>
@@ -238,6 +243,7 @@
         <div class="col-6">
           <input
             type="text"
+            id="Nombre"
             class="form-control flip-inputs"
             placeholder="Nombre"
             aria-label="Nombre"
