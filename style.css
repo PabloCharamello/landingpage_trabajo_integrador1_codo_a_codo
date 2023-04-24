@@ -89,6 +89,10 @@ a {
   border-radius: 15px;
 }
 
+.card:hover {
+  box-shadow: 5px 20px 20px 10px rgba(0, 0, 0, 0.203);
+}
+
 .navlinks:hover {
   color: white !important;
 }
@@ -123,7 +127,6 @@ a {
 }
 .flip-first-card:hover {
   transform: perspective(1600px) rotateY(-10deg) translateX(-5%) rotateX(10deg);
-
   scale: 110%;
 }
 
