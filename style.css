@@ -112,6 +112,76 @@ a {
   color: white !important;
 }
 
+/* Flip first-card */
+
+.flip-first-card {
+  position: relative;
+  transition: all 1s ease;
+  transform: perspective(600px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+}
+.flip-first-card:hover {
+  transform: perspective(1600px) rotateY(-10deg) translateX(-5%) rotateX(10deg);
+
+  scale: 110%;
+}
+
+.flip-first-card .flip-1,
+.flip-first-card .flip-2 {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-first-card .flip-2 {
+  transform: rotateY(-180deg);
+}
+
+/* Flip second-card */
+
+.flip-second-card {
+  position: relative;
+  transition: all 1s ease;
+  transform: perspective(600px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+}
+.flip-second-card:hover {
+  transform: perspective(1600px) rotateY(0deg) translateX(0%) rotateX(10deg);
+  scale: 110%;
+}
+
+.flip-second-card .flip-1,
+.flip-second-card .flip-2 {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-second-card .flip-2 {
+  transform: rotateY(-180deg);
+}
+
+/* Flip third-card */
+
+.flip-third-card {
+  position: relative;
+  transition: all 1s ease;
+  transform: perspective(600px);
+  transform-origin: 100% 50%;
+  transform-style: preserve-3d;
+}
+.flip-third-card:hover {
+  transform: perspective(1600px) rotateY(10deg) translateX(5%) rotateX(10deg);
+  scale: 110%;
+}
+
+.flip-third-card .flip-1,
+.flip-third-card .flip-2 {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-third-card .flip-2 {
+  transform: rotateY(-180deg);
+}
+
 .landscape-info {
   height: 400px;
 }
