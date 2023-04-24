@@ -273,6 +273,10 @@ ul:hover {
   width: 700px !important;
 }
 
+.charla-ignite {
+  cursor: pointer;
+}
+
 u {
   color: black;
   text-decoration: underline dotted black !important;
