@@ -97,11 +97,16 @@ a {
   width: 200px !important;
   min-width: 200px !important;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.265);
-  border-radius: 15px;
+  border-radius: 5px !important;
 }
 
 .card:hover {
   box-shadow: 5px 20px 20px 10px rgba(0, 0, 0, 0.203);
+}
+
+.card-img-top {
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
 .navlinks:hover {
@@ -318,4 +323,11 @@ footer {
 
 .footer-links:hover {
   color: rgb(175, 175, 175) !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar-collapse {
+  border: 0.5x solid rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
