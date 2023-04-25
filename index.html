@@ -14,7 +14,78 @@
     <title>TPI-1 Pablo Charamello</title>
   </head>
   <body>
-    <nav class="container-fluid nav-container">
+    <div class="container-fluid p-0 nav-container">
+      <nav class="navbar navbar-expand-lg p-0">
+        <button
+          class="navbar-toggler m-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="col-4 d-flex align-items-center my-2">
+              <img
+                class="logo-codoacodo"
+                src="img/codoacodo.png"
+                alt="Logo codo a codo"
+              />
+              <a
+                class="nav-link active text-white conf-Bs-As mb-2"
+                aria-current="page"
+                href="#"
+                >Conf Bs As</a
+              >
+            </div>
+            <div class="mx-3">
+              <ul class="navbar-nav flip mb-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link navlinks text-white px-4"
+                    href="#"
+                    aria-current="page"
+                    >La conferencia</a
+                  >
+                  <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link secondary-links navlinks px-4"
+                    href="#Oradores"
+                    >Los oradores</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link secondary-links navlinks px-4"
+                    href="#lugarFecha"
+                    >El lugar y la fecha</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link secondary-links navlinks px-4"
+                    href="#Nombre"
+                    >Conviértete en orador</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link compra-tickets-link navlinks" href="#"
+                    >Compra tickets</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- <nav class="container-fluid nav-container">
       <div class="container">
         <div class="row">
           <div class="col-4 d-flex align-items-center my-2">
@@ -30,7 +101,7 @@
               >Conf Bs As</a
             >
           </div>
-          <div class="col-8">
+          <div class="col-8" id="navbarNav">
             <ul class="my-2 align-items-center flip">
               <li
                 class="nav-item d-flex text-white justify-content-around mt-4"
@@ -53,7 +124,7 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <section class="">
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -81,7 +152,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active carousel-size">
-            <img src="img/hawaii.jpg" class="d-block" alt="hawai hero" />
+            <img src="img/hawaii.jpg" alt="hawai hero" />
             <div class="carousel-caption d-none d-md-block">
               <div class="Hero-info-col">
                 <h2>Conf Bs As</h2>
@@ -124,7 +195,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item carousel-size">
+          <div class="carousel-item carousel-size col-lg-6 col-md-6 col-sm-12">
             <img src="img/hawaii3.jpg" class="d-block w-100" alt="hawai hero" />
             <div class="carousel-caption d-none d-md-block">
               <div class="Hero-info-col">
@@ -156,7 +227,7 @@
     </div>
 
     <section class="container px-5">
-      <div class="card-group gap-4">
+      <div class="card-group gap-4 d-flex justify-content-center row">
         <div class="card flip-first-card">
           <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs" />
           <div class="card-body">
@@ -207,7 +278,7 @@
 
     <section class="container-fluid">
       <div class="row mt-5">
-        <div class="col-6 p-0 overflow-hidden landscape-info flip">
+        <div class="col-sm-12 col-md-6 p-0 overflow-hidden landscape-info flip">
           <img
             class="landscape"
             src="img/honolulu.jpg"
@@ -215,7 +286,7 @@
             id="lugarFecha"
           />
         </div>
-        <div class="col-6 landscape">
+        <div class="col-sm-12 col-md-6 landscape">
           <h3 class="landscape-title-info">Bs As - Octubre</h3>
           <p class="landscape-paragraph-info">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
@@ -223,7 +294,7 @@
             error quidem laudantium accusantium dolore odit, harum deserunt
             quaerat similique molestiae. Officiis delectus blanditiis odit.
           </p>
-          <button class="ms-3 btn btn-outline-light">Conocé más</button>
+          <button class="ms-3 btn btn-outline-light mb-4">Conocé más</button>
         </div>
       </div>
     </section>
@@ -273,32 +344,32 @@ Sobre qué quieres hablar?</textarea
       <button class="send-button btn btn-success w-100">Enviar</button>
     </section>
 
-    <footer class="container-fluid p-0 mt-3">
+    <footer class="container-fluid p-0 mt-3 h-100">
       <div class="container px-5">
         <div
           class="row d-flex justify-content-around align-items-center text-center pt-3"
         >
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Preguntas frecuentes</a>
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Contáctanos</a>
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Prensa</a>
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Conferencias</a>
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href=""
               >Términos y condiciones</a
             >
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Privacidad</a>
           </div>
-          <div class="col">
+          <div class="col-md col-sm-3">
             <a class="text-white footer-links" href="">Estudiantes</a>
           </div>
         </div>

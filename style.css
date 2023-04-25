@@ -8,11 +8,13 @@ li {
 }
 
 .logo-codoacodo {
+  margin-left: 50px;
   width: 110px;
 }
 
 .nav-container {
   background-color: #353a40;
+  /* height: 82px !important; */
 }
 
 .secondary-links {
@@ -21,6 +23,10 @@ li {
 
 .compra-tickets-link {
   color: #27a442 !important;
+}
+
+div ul {
+  margin-left: 35px;
 }
 
 .conf-Bs-As {
@@ -36,11 +42,13 @@ a {
 }
 
 .carousel-size img {
+  object-fit: cover;
   filter: brightness(58%);
   position: absolute;
   overflow: hidden;
   top: -130px;
   width: 100vw;
+  height: calc(100vh - -50px);
 }
 
 .carousel-caption {
@@ -56,6 +64,7 @@ a {
   display: flex;
   justify-content: end;
   width: 100%;
+  z-index: 10;
 }
 
 .Hero-info-col button {
@@ -213,6 +222,11 @@ a {
   height: 400px;
 }
 
+.landscape-info img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /* FLIP INPUTS */
 
 .flip-inputs {
@@ -270,7 +284,7 @@ ul:hover {
 }
 
 .register-container {
-  width: 700px !important;
+  width: 60vw !important;
 }
 
 .charla-ignite {
