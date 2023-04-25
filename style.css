@@ -291,7 +291,7 @@ ul:hover {
 }
 
 .register-container {
-  width: 60vw !important;
+  width: 52vw !important;
 }
 
 .charla-ignite {
@@ -314,10 +314,10 @@ footer {
 }
 
 .footer-links {
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   text-decoration: none;
   transition-duration: 0.3s;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   justify-content: center;
 }
 
