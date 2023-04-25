@@ -308,12 +308,12 @@ footer {
 }
 
 .footer-links {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   text-decoration: none;
   transition-duration: 0.3s;
+  font-weight: 500 !important;
 }
 
 .footer-links:hover {
-  font-size: 1rem !important;
   color: rgb(175, 175, 175) !important;
 }
