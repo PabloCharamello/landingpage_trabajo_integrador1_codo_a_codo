@@ -95,6 +95,7 @@ a {
 
 .card {
   width: 200px !important;
+  min-width: 200px !important;
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.265);
   border-radius: 15px;
 }
@@ -312,6 +313,7 @@ footer {
   text-decoration: none;
   transition-duration: 0.3s;
   font-weight: 500 !important;
+  justify-content: center;
 }
 
 .footer-links:hover {
