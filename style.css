@@ -14,7 +14,6 @@ li {
 
 .nav-container {
   background-color: #353a40;
-  /* height: 82px !important; */
 }
 
 .secondary-links {
@@ -96,13 +95,13 @@ a {
 .card {
   width: 200px !important;
   min-width: 200px !important;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.265);
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.213);
   border-radius: 5px !important;
 }
 
-.card:hover {
-  box-shadow: 5px 20px 20px 10px rgba(0, 0, 0, 0.203);
-}
+/* .card:hover {
+  box-shadow: 5px 5px 20px 10px rgba(64, 60, 60, 0.315);
+} */
 
 .card-img-top {
   width: 100% !important;
@@ -144,6 +143,7 @@ a {
 .flip-first-card:hover {
   transform: perspective(1600px) rotateY(-10deg) translateX(-5%) rotateX(10deg);
   scale: 110%;
+  box-shadow: 25px 20px 25px 2px rgba(64, 60, 60, 0.315);
 }
 
 .flip-first-card .flip-1,
@@ -167,6 +167,7 @@ a {
 .flip-second-card:hover {
   transform: perspective(1600px) rotateY(0deg) translateX(0%) rotateX(10deg);
   scale: 110%;
+  box-shadow: 2px 25px 25px 2px rgba(64, 60, 60, 0.315);
 }
 
 .flip-second-card .flip-1,
@@ -190,6 +191,7 @@ a {
 .flip-third-card:hover {
   transform: perspective(1600px) rotateY(10deg) translateX(5%) rotateX(10deg);
   scale: 110%;
+  box-shadow: -15px 20px 25px 2px rgba(64, 60, 60, 0.315);
 }
 
 .flip-third-card .flip-1,
@@ -246,7 +248,7 @@ a {
 .flip-inputs:hover {
   transform: perspective(2600px) rotateY(-20deg) rotateX(3deg) translateX(3%);
   scale: 115%;
-  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.33);
+  box-shadow: 7px 5px 10px 1px rgba(64, 60, 60, 0.315);
 }
 
 .flip-inputs .flip-1,
